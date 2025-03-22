@@ -1,0 +1,101 @@
+@charset "UTF-8";
+body {
+  background: url(../images/bann.jpg) no-repeat 0px 12px;
+  width: 100%;
+}
+
+.loginForm {
+  width: 30%;
+  margin: 0 auto;
+  padding: 4em 2em;
+  background-color: #202123;
+  justify-content: space-between;
+}
+h1 {
+  font-size: 50px;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+form {
+  /* margin: 0 auto; */
+  width: 100%;
+  margin-left: 40px;
+}
+.login {
+  text-align: center;
+  margin-top: 2em;
+}
+.login-element {
+  position: relative;
+  margin-bottom: 20px;
+}
+.login-element input[type="text"],
+input[type="password"] {
+  width: 80%;
+  padding: 15px 66px 15px 19px;
+  text-align: left;
+  background-color: transparent;
+  /*-- w3layouts --*/
+  border-bottom: 5px solid #fff;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  color: #fff;
+  outline: 0;
+}
+.login {
+  margin-left: 130px;
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #2fa1b3;
+}
+.login:hover {
+  background-color: white;
+  color: black;
+}
+label {
+  color: white;
+}
+input#username:focus,
+input#password:focus,
+input#username:hover,
+input#password:hover {
+  color: #fff;
+  border-bottom: 5px solid #2fa1b3;
+}
+input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+input:-moz-placeholder {
+  /* Firefox 18- */
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+input:hover::-webkit-input-placeholder {
+  color: #2fa1b3 !important;
+}
+input:hover:-moz-placeholder {
+  /* Firefox 18- */
+  color: #2fa1b3 !important;
+}
+input:hover::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #2fa1b3 !important;
+}
+input:hover:-ms-input-placeholder {
+  color: #2fa1b3 !important;
+}

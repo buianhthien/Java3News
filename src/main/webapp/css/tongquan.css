@@ -1,0 +1,30 @@
+@charset "UTF-8";
+.main-content {
+  padding: 20px;
+  flex-grow: 1;
+  background-color: #f4f4f4;
+  height: 300px;
+}
+header {
+  border-bottom: 2px solid #333;
+  margin-bottom: 20px;
+}
+.statistics {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+.stat-box {
+  background-color: #fff;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  margin: 0 10px;
+}
+article {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
